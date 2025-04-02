@@ -1,30 +1,6 @@
 # Day 10: Replication Controller, ReplicaSets, and Deployment | CKA Certification Course 2025
 
-## Video reference for Day 10 is the following:
 
-[![Watch the video](https://img.youtube.com/vi/_YNBhQGMut4/maxresdefault.jpg)](https://www.youtube.com/watch?v=_YNBhQGMut4&ab_channel=CloudWithVarJosh)
-
----
-## ⭐ Support the Project  
-If this **repository** helps you, give it a ⭐ to show your support and help others discover it! 
-
----
-# **Table of Contents**
-
-1. [Checking Kubernetes Object Details](#1-checking-kubernetes-object-details)  
-2. [ReplicationController (rc)](#2-replicationcontroller-rc)  
-   - [What is a ReplicationController?](#what-is-a-replicationcontroller)  
-   - [Labels and Selectors](#labels-and-selectors)  
- 
-3. [ReplicaSet (rs)](#3-replicaset-rs)  
-   - [What is a ReplicaSet?](#what-is-a-replicaset)   
-   - [Equality-Based vs Set-Based Selectors](#equality-based-vs-set-based-selectors)  
-     - [Equality-Based Selector Example](#equality-based-selector-example)  
-     - [Set-Based Selector Example](#set-based-selector-example)  
-4. [Deployments](#4-deployments)  
-   - [What is a Deployment?](#what-is-a-deployment)  
-   - [How Deployments Build on rs](#how-deployments-build-on-rs)  
-   - [Explaining Rolling Updates and Rollbacks in Deployments with Annotations](#explaining-rolling-updates-and-rollbacks-in-deployments-with-annotations)  
 
 ## **1. Checking Kubernetes Object Details**
 
@@ -51,7 +27,7 @@ This command helps you identify the API group, version, and shortnames to work w
 
 ## **2. ReplicationController (rc)**
 
-![Alt text](/images/10a.png)
+
 
 ### **What is a ReplicationController?**
 - Ensures a specified number of pod replicas are running at any given time.
@@ -68,7 +44,7 @@ It is crucial to have a solid understanding of **labels** and **selectors**, as 
 
 **Labels and Selectors Analogy**
 
-![Alt text](/images/10c.png)
+
 
 Imagine you have a DevOps team consisting of 5 engineers with the following areas of expertise:
 
@@ -82,7 +58,7 @@ In this scenario, think of each area of expertise as a **label** that defines th
 - `Automation Expert`
 - `CI/CD Expert`
 
-![Alt text](/images/10d.png)
+
 
 If you want to **filter** the team based on a specific expertise, you can apply a **selector**. For instance:
 
@@ -146,7 +122,7 @@ kubectl create rc nginx-rc --image=nginx --replicas=3
 
 ## **3. ReplicaSet (rs)**
 
-![Alt text](/images/10b.png)
+
 
 ### **What is a ReplicaSet?**
 - ReplicaSet is an improved version of ReplicationController.
