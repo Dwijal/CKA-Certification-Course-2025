@@ -1,31 +1,9 @@
-# Day 25: Kubernetes Core & Extensions | CNI, CSI, CRI, Add-Ons & Plugins Explained | CKA Course 2025
+# Kubernetes Core & Extensions | CNI, CSI, CRI, Add-Ons & Plugins Explained | CKA Course 2025
 
-## Video reference for Day 25 is the following:
-[![Watch the video](https://img.youtube.com/vi/AVovCH0dvyM/maxresdefault.jpg)](https://www.youtube.com/watch?v=AVovCH0dvyM&ab_channel=CloudWithVarJosh)
 
----
-## ⭐ Support the Project  
-If this **repository** helps you, give it a ⭐ to show your support and help others discover it! 
 
 ---
 
-## Table of Contents  
-
-1. [Introduction](#introduction)  
-2. [Kubernetes Core and Extended Architecture](#kubernetes-core-and-extended-architecture)  
-   - [What is Kubernetes Core?](#what-is-kubernetes-core)  
-   - [Control Plane Components](#1️⃣-control-plane-components)  
-   - [Node Components](#2️⃣-node-components)  
-3. [Kubernetes Extensions: Beyond the Core](#kubernetes-extensions-beyond-the-core)  
-   - [Plugins](#1️⃣-plugins)  
-   - [Add-Ons](#2️⃣-add-ons)  
-   - [Third-Party Extensions](#3️⃣-third-party-extensions)  
-4. [Deep Dive into Kubernetes Interfaces](#deep-dive-into-kubernetes-interfaces)  
-   - [Overview of Kubernetes Interfaces](#overview-of-kubernetes-interfaces)  
-5. [Why Kubernetes Uses a Plugin-Based Architecture?](#why-kubernetes-uses-a-plugin-based-architecture)  
-6. [Key Takeaways](#key-takeaways)  
-7. [Conclusion](#conclusion)  
-8. [References](#references)  
 
 
 ---
