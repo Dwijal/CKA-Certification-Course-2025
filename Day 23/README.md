@@ -1,22 +1,5 @@
-# Day 23: DEEP-DIVE into Kubernetes Health Probes | Readiness vs Liveness vs Startup | CKA Course 2025
+# DEEP-DIVE into Kubernetes Health Probes | Readiness vs Liveness vs Startup 
 
-## Video reference for Day 23 is the following:
-[![Watch the video](https://img.youtube.com/vi/ANSBnfil75Y/maxresdefault.jpg)](https://www.youtube.com/watch?v=ANSBnfil75Y&ab_channel=CloudWithVarJosh)
-
----
-## ⭐ Support the Project  
-If this **repository** helps you, give it a ⭐ to show your support and help others discover it! 
-
----
-
-## **Table of Contents**
-
-1. [Introduction](#introduction)  
-2. [Types of Health Probes](#types-of-health-probes)  
-3. [Why Configure Both Readiness and Liveness Probes?](#why-configure-both-readiness-and-liveness-probes)  
-4. [Probe Timer Configuration Parameters](#probe-timer-configuration-parameters)  
-5. [Behavior of RP, LP, and Startup Probes with Multi-Container Pods](#behavior-of-rp-lp-and-startup-probes-with-multi-container-pods)  
-6. [Kubernetes Health Probes: Comprehensive Comparison](#kubernetes-health-probes-comprehensive-comparison)  
 
 ---
 
