@@ -1,4 +1,4 @@
-# Kubernetes Core & Extensions | CNI, CSI, CRI, Add-Ons & Plugins Explained | CKA Course 2025
+# Kubernetes Core & Extensions | CNI, CSI, CRI, Add-Ons & Plugins Explained 
 
 
 
