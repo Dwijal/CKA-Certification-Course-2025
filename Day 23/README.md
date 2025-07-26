@@ -84,7 +84,7 @@ Ensures that the container has enough time to initialize the application. Until 
       failureThreshold: 30  # Kubernetes (via Kubelet) will attempt the probe up to 30 times before failing
       periodSeconds: 10     # Probe runs every 10 seconds
      ```
-      - **Explanation:**
+      - **Explanation: **
         - This probe is responsible for determining when the application has successfully started.
         - It sends an HTTP GET request to /healthz on port 8080.
         - It will try every 10 seconds, up to 30 times (total grace period = 300 seconds).
